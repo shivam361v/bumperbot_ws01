@@ -1,0 +1,384 @@
+[0.000000] (-) TimerEvent: {}
+[0.000680] (bumperbot_cpp_examples) JobQueued: {'identifier': 'bumperbot_cpp_examples', 'dependencies': OrderedDict()}
+[0.000784] (bumperbot_description) JobQueued: {'identifier': 'bumperbot_description', 'dependencies': OrderedDict()}
+[0.000814] (bumperbot_py_examples) JobQueued: {'identifier': 'bumperbot_py_examples', 'dependencies': OrderedDict()}
+[0.002187] (bumperbot_cpp_examples) JobStarted: {'identifier': 'bumperbot_cpp_examples'}
+[0.016734] (bumperbot_description) JobStarted: {'identifier': 'bumperbot_description'}
+[0.019470] (bumperbot_py_examples) JobStarted: {'identifier': 'bumperbot_py_examples'}
+[0.032158] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'cmake'}
+[0.032227] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/shivam/bumperbot_ws/src/bumperbot_cpp_examples', '-DCMAKE_INSTALL_PREFIX=/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples'], 'cwd': '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam-PC'), ('WSL_INTEROP', '/run/WSL/36721_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shivam/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:254ddc0f-b5dc-4f62-b8a4-d06c58b59fd3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.038766] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'cmake'}
+[0.038826] (bumperbot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/shivam/bumperbot_ws/src/bumperbot_description', '-DCMAKE_INSTALL_PREFIX=/home/shivam/bumperbot_ws/install/bumperbot_description'], 'cwd': '/home/shivam/bumperbot_ws/build/bumperbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam-PC'), ('WSL_INTEROP', '/run/WSL/36721_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shivam/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:254ddc0f-b5dc-4f62-b8a4-d06c58b59fd3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/bumperbot_ws/build/bumperbot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100062] (-) TimerEvent: {}
+[0.200434] (-) TimerEvent: {}
+[0.301025] (-) TimerEvent: {}
+[0.402009] (-) TimerEvent: {}
+[0.485728] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.488612] (bumperbot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.502137] (-) TimerEvent: {}
+[0.602555] (-) TimerEvent: {}
+[0.702967] (-) TimerEvent: {}
+[0.765928] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.768099] (bumperbot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.803755] (-) TimerEvent: {}
+[0.904180] (-) TimerEvent: {}
+[1.004660] (-) TimerEvent: {}
+[1.047155] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.053946] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.104804] (-) TimerEvent: {}
+[1.189828] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.190101] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.199747] (bumperbot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.200454] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.201073] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.201460] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.202408] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.203296] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.204918] (-) TimerEvent: {}
+[1.207031] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.207916] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.305099] (-) TimerEvent: {}
+[1.344073] (bumperbot_py_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bumperbot_py_examples', 'build', '--build-base', '/home/shivam/bumperbot_ws/build/bumperbot_py_examples/build', 'install', '--record', '/home/shivam/bumperbot_ws/build/bumperbot_py_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shivam/bumperbot_ws/src/bumperbot_py_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shivam', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shivam', 'OLDPWD': '/home/shivam', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shivam', 'NAME': 'Shivam-PC', 'WSL_INTEROP': '/run/WSL/36721_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/shivam/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:254ddc0f-b5dc-4f62-b8a4-d06c58b59fd3', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/shivam/bumperbot_ws/build/bumperbot_py_examples', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shivam/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'VTE_VERSION': '6800', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.353345] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.354613] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.365276] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.365493] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.365885] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.366878] (bumperbot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.367272] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.368425] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.380483] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.380713] (bumperbot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.405249] (-) TimerEvent: {}
+[1.505706] (-) TimerEvent: {}
+[1.588255] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.590509] (bumperbot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.605882] (-) TimerEvent: {}
+[1.706313] (-) TimerEvent: {}
+[1.708303] (bumperbot_py_examples) StdoutLine: {'line': b'running egg_info\n'}
+[1.709876] (bumperbot_py_examples) StdoutLine: {'line': b'creating ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info\n'}
+[1.710235] (bumperbot_py_examples) StdoutLine: {'line': b'writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO\n'}
+[1.710528] (bumperbot_py_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt\n'}
+[1.710645] (bumperbot_py_examples) StdoutLine: {'line': b'writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt\n'}
+[1.710925] (bumperbot_py_examples) StdoutLine: {'line': b'writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt\n'}
+[1.711101] (bumperbot_py_examples) StdoutLine: {'line': b'writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt\n'}
+[1.711212] (bumperbot_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'\n"}
+[1.713741] (bumperbot_py_examples) StdoutLine: {'line': b"reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'\n"}
+[1.714955] (bumperbot_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'\n"}
+[1.715161] (bumperbot_py_examples) StdoutLine: {'line': b'running build\n'}
+[1.715435] (bumperbot_py_examples) StdoutLine: {'line': b'running build_py\n'}
+[1.715911] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/shivam/bumperbot_ws/build/bumperbot_py_examples/build\n'}
+[1.716043] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/shivam/bumperbot_ws/build/bumperbot_py_examples/build/lib\n'}
+[1.716203] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/shivam/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples\n'}
+[1.716584] (bumperbot_py_examples) StdoutLine: {'line': b'copying bumperbot_py_examples/simple_subscriber.py -> /home/shivam/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples\n'}
+[1.716750] (bumperbot_py_examples) StdoutLine: {'line': b'copying bumperbot_py_examples/simple_publisher.py -> /home/shivam/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples\n'}
+[1.717007] (bumperbot_py_examples) StdoutLine: {'line': b'copying bumperbot_py_examples/simple_parameter.py -> /home/shivam/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples\n'}
+[1.717165] (bumperbot_py_examples) StdoutLine: {'line': b'copying bumperbot_py_examples/__init__.py -> /home/shivam/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples\n'}
+[1.717254] (bumperbot_py_examples) StdoutLine: {'line': b'running install\n'}
+[1.717454] (bumperbot_py_examples) StdoutLine: {'line': b'running install_lib\n'}
+[1.718274] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples\n'}
+[1.718528] (bumperbot_py_examples) StdoutLine: {'line': b'copying /home/shivam/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_subscriber.py -> /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples\n'}
+[1.718799] (bumperbot_py_examples) StdoutLine: {'line': b'copying /home/shivam/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_publisher.py -> /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples\n'}
+[1.718913] (bumperbot_py_examples) StdoutLine: {'line': b'copying /home/shivam/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_parameter.py -> /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples\n'}
+[1.719100] (bumperbot_py_examples) StdoutLine: {'line': b'copying /home/shivam/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples\n'}
+[1.719443] (bumperbot_py_examples) StdoutLine: {'line': b'byte-compiling /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc\n'}
+[1.720146] (bumperbot_py_examples) StdoutLine: {'line': b'byte-compiling /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc\n'}
+[1.720708] (bumperbot_py_examples) StdoutLine: {'line': b'byte-compiling /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc\n'}
+[1.721337] (bumperbot_py_examples) StdoutLine: {'line': b'byte-compiling /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-310.pyc\n'}
+[1.722554] (bumperbot_py_examples) StdoutLine: {'line': b'running install_data\n'}
+[1.722703] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/shivam/bumperbot_ws/install/bumperbot_py_examples/share/ament_index\n'}
+[1.722870] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/shivam/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index\n'}
+[1.722953] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/shivam/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages\n'}
+[1.723113] (bumperbot_py_examples) StdoutLine: {'line': b'copying resource/bumperbot_py_examples -> /home/shivam/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages\n'}
+[1.723437] (bumperbot_py_examples) StdoutLine: {'line': b'copying package.xml -> /home/shivam/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples\n'}
+[1.723819] (bumperbot_py_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.725901] (bumperbot_py_examples) StdoutLine: {'line': b'Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info\n'}
+[1.726949] (bumperbot_py_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[1.741538] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.742092] (bumperbot_description) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[1.758618] (bumperbot_py_examples) StdoutLine: {'line': b'Installing simple_parameter script to /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples\n'}
+[1.758936] (bumperbot_py_examples) StdoutLine: {'line': b'Installing simple_publisher script to /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples\n'}
+[1.759040] (bumperbot_py_examples) StdoutLine: {'line': b'Installing simple_subscriber script to /home/shivam/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples\n'}
+[1.759397] (bumperbot_py_examples) StdoutLine: {'line': b"writing list of installed files to '/home/shivam/bumperbot_ws/build/bumperbot_py_examples/install.log'\n"}
+[1.792117] (bumperbot_py_examples) CommandEnded: {'returncode': 0}
+[1.806455] (-) TimerEvent: {}
+[1.811558] (bumperbot_py_examples) JobEnded: {'identifier': 'bumperbot_py_examples', 'rc': 0}
+[1.906659] (-) TimerEvent: {}
+[1.934323] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.944061] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.962789] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.992033] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.006773] (-) TimerEvent: {}
+[2.018659] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.106926] (-) TimerEvent: {}
+[2.120086] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.124104] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.207075] (-) TimerEvent: {}
+[2.307461] (-) TimerEvent: {}
+[2.407806] (-) TimerEvent: {}
+[2.508151] (-) TimerEvent: {}
+[2.608509] (-) TimerEvent: {}
+[2.708856] (-) TimerEvent: {}
+[2.809197] (-) TimerEvent: {}
+[2.909538] (-) TimerEvent: {}
+[3.009884] (-) TimerEvent: {}
+[3.110227] (-) TimerEvent: {}
+[3.201938] (bumperbot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.210332] (-) TimerEvent: {}
+[3.309011] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.310420] (-) TimerEvent: {}
+[3.312240] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.313338] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.314336] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.316472] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.318199] (bumperbot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.321587] (bumperbot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[3.322514] (bumperbot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/shivam/bumperbot_ws/build/bumperbot_description\n'}
+[3.330452] (bumperbot_description) CommandEnded: {'returncode': 0}
+[3.332565] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'build'}
+[3.332651] (bumperbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shivam/bumperbot_ws/build/bumperbot_description', '--', '-j12', '-l12'], 'cwd': '/home/shivam/bumperbot_ws/build/bumperbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam-PC'), ('WSL_INTEROP', '/run/WSL/36721_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shivam/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:254ddc0f-b5dc-4f62-b8a4-d06c58b59fd3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/bumperbot_ws/build/bumperbot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.366384] (bumperbot_description) CommandEnded: {'returncode': 0}
+[3.385668] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'install'}
+[3.392880] (bumperbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shivam/bumperbot_ws/build/bumperbot_description'], 'cwd': '/home/shivam/bumperbot_ws/build/bumperbot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam-PC'), ('WSL_INTEROP', '/run/WSL/36721_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shivam/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:254ddc0f-b5dc-4f62-b8a4-d06c58b59fd3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/bumperbot_ws/build/bumperbot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.400542] (bumperbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.400872] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch\n'}
+[3.401173] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py\n'}
+[3.401443] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py\n'}
+[3.401584] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes\n'}
+[3.401738] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL\n'}
+[3.401871] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL\n'}
+[3.402096] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL\n'}
+[3.402457] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL\n'}
+[3.403302] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL\n'}
+[3.410551] (-) TimerEvent: {}
+[3.413285] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL\n'}
+[3.414147] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models\n'}
+[3.414511] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane\n'}
+[3.415277] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_2.sdf\n'}
+[3.415441] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_4.sdf\n'}
+[3.415600] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.sdf\n'}
+[3.416057] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.config\n'}
+[3.416116] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_3.sdf\n'}
+[3.416168] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun\n'}
+[3.416222] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_2.sdf\n'}
+[3.416282] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_4.sdf\n'}
+[3.416333] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.sdf\n'}
+[3.416576] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.config\n'}
+[3.416687] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_3.sdf\n'}
+[3.416779] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf\n'}
+[3.416931] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro\n'}
+[3.416994] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro\n'}
+[3.417135] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz\n'}
+[3.417301] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz\n'}
+[3.417566] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description\n'}
+[3.417678] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description\n'}
+[3.417858] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh\n'}
+[3.418035] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv\n'}
+[3.418184] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh\n'}
+[3.418371] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv\n'}
+[3.418484] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash\n'}
+[3.418678] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh\n'}
+[3.418738] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh\n'}
+[3.418812] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv\n'}
+[3.418884] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv\n'}
+[3.419019] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description\n'}
+[3.419174] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake\n'}
+[3.419304] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake\n'}
+[3.419359] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml\n'}
+[3.420722] (bumperbot_description) CommandEnded: {'returncode': 0}
+[3.446797] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.449159] (bumperbot_description) JobEnded: {'identifier': 'bumperbot_description', 'rc': 0}
+[3.510686] (-) TimerEvent: {}
+[3.611154] (-) TimerEvent: {}
+[3.711598] (-) TimerEvent: {}
+[3.812258] (-) TimerEvent: {}
+[3.912786] (-) TimerEvent: {}
+[4.013291] (-) TimerEvent: {}
+[4.113758] (-) TimerEvent: {}
+[4.214156] (-) TimerEvent: {}
+[4.314503] (-) TimerEvent: {}
+[4.414873] (-) TimerEvent: {}
+[4.515226] (-) TimerEvent: {}
+[4.615590] (-) TimerEvent: {}
+[4.715965] (-) TimerEvent: {}
+[4.816321] (-) TimerEvent: {}
+[4.916662] (-) TimerEvent: {}
+[5.014668] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.017337] (-) TimerEvent: {}
+[5.117652] (-) TimerEvent: {}
+[5.218045] (-) TimerEvent: {}
+[5.318478] (-) TimerEvent: {}
+[5.418868] (-) TimerEvent: {}
+[5.519227] (-) TimerEvent: {}
+[5.619692] (-) TimerEvent: {}
+[5.720108] (-) TimerEvent: {}
+[5.820462] (-) TimerEvent: {}
+[5.920823] (-) TimerEvent: {}
+[6.021305] (-) TimerEvent: {}
+[6.121645] (-) TimerEvent: {}
+[6.221993] (-) TimerEvent: {}
+[6.322362] (-) TimerEvent: {}
+[6.422805] (-) TimerEvent: {}
+[6.523173] (-) TimerEvent: {}
+[6.623553] (-) TimerEvent: {}
+[6.723948] (-) TimerEvent: {}
+[6.824376] (-) TimerEvent: {}
+[6.924760] (-) TimerEvent: {}
+[7.025155] (-) TimerEvent: {}
+[7.125532] (-) TimerEvent: {}
+[7.225950] (-) TimerEvent: {}
+[7.235374] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.263113] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.326081] (-) TimerEvent: {}
+[7.409182] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.409530] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.426268] (-) TimerEvent: {}
+[7.526630] (-) TimerEvent: {}
+[7.547841] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.549000] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.626879] (-) TimerEvent: {}
+[7.727350] (-) TimerEvent: {}
+[7.827759] (-) TimerEvent: {}
+[7.851530] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.870463] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Generating done\n'}
+[7.872274] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/shivam/bumperbot_ws/build/bumperbot_cpp_examples\n'}
+[7.884774] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[7.885161] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'build'}
+[7.885189] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples', '--', '-j12', '-l12'], 'cwd': '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam-PC'), ('WSL_INTEROP', '/run/WSL/36721_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shivam/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:254ddc0f-b5dc-4f62-b8a4-d06c58b59fd3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.928661] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o\x1b[0m\n'}
+[7.928852] (-) TimerEvent: {}
+[7.938345] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o\x1b[0m\n'}
+[7.946017] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[8.029031] (-) TimerEvent: {}
+[8.129433] (-) TimerEvent: {}
+[8.230031] (-) TimerEvent: {}
+[8.330432] (-) TimerEvent: {}
+[8.430887] (-) TimerEvent: {}
+[8.531413] (-) TimerEvent: {}
+[8.631884] (-) TimerEvent: {}
+[8.732382] (-) TimerEvent: {}
+[8.833104] (-) TimerEvent: {}
+[8.933569] (-) TimerEvent: {}
+[9.034194] (-) TimerEvent: {}
+[9.134662] (-) TimerEvent: {}
+[9.235424] (-) TimerEvent: {}
+[9.336067] (-) TimerEvent: {}
+[9.436574] (-) TimerEvent: {}
+[9.537039] (-) TimerEvent: {}
+[9.637486] (-) TimerEvent: {}
+[9.737900] (-) TimerEvent: {}
+[9.838357] (-) TimerEvent: {}
+[9.938800] (-) TimerEvent: {}
+[10.039257] (-) TimerEvent: {}
+[10.139724] (-) TimerEvent: {}
+[10.240535] (-) TimerEvent: {}
+[10.340928] (-) TimerEvent: {}
+[10.441417] (-) TimerEvent: {}
+[10.541890] (-) TimerEvent: {}
+[10.642342] (-) TimerEvent: {}
+[10.742881] (-) TimerEvent: {}
+[10.843311] (-) TimerEvent: {}
+[10.943780] (-) TimerEvent: {}
+[11.044215] (-) TimerEvent: {}
+[11.144690] (-) TimerEvent: {}
+[11.245127] (-) TimerEvent: {}
+[11.345580] (-) TimerEvent: {}
+[11.437329] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable simple_parameter\x1b[0m\n'}
+[11.445793] (-) TimerEvent: {}
+[11.546302] (-) TimerEvent: {}
+[11.646847] (-) TimerEvent: {}
+[11.705406] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 66%] Built target simple_parameter\n'}
+[11.747024] (-) TimerEvent: {}
+[11.847544] (-) TimerEvent: {}
+[11.948112] (-) TimerEvent: {}
+[12.048538] (-) TimerEvent: {}
+[12.148985] (-) TimerEvent: {}
+[12.249419] (-) TimerEvent: {}
+[12.349849] (-) TimerEvent: {}
+[12.450313] (-) TimerEvent: {}
+[12.550768] (-) TimerEvent: {}
+[12.651309] (-) TimerEvent: {}
+[12.753130] (-) TimerEvent: {}
+[12.853540] (-) TimerEvent: {}
+[12.903437] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable simple_publisher\x1b[0m\n'}
+[12.953689] (-) TimerEvent: {}
+[13.054107] (-) TimerEvent: {}
+[13.154535] (-) TimerEvent: {}
+[13.167695] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 83%] Built target simple_publisher\n'}
+[13.254842] (-) TimerEvent: {}
+[13.356103] (-) TimerEvent: {}
+[13.456748] (-) TimerEvent: {}
+[13.557237] (-) TimerEvent: {}
+[13.657885] (-) TimerEvent: {}
+[13.758424] (-) TimerEvent: {}
+[13.858984] (-) TimerEvent: {}
+[13.959438] (-) TimerEvent: {}
+[14.060024] (-) TimerEvent: {}
+[14.160447] (-) TimerEvent: {}
+[14.260869] (-) TimerEvent: {}
+[14.362060] (-) TimerEvent: {}
+[14.462442] (-) TimerEvent: {}
+[14.562818] (-) TimerEvent: {}
+[14.663197] (-) TimerEvent: {}
+[14.763686] (-) TimerEvent: {}
+[14.864088] (-) TimerEvent: {}
+[14.964751] (-) TimerEvent: {}
+[15.065268] (-) TimerEvent: {}
+[15.166636] (-) TimerEvent: {}
+[15.267131] (-) TimerEvent: {}
+[15.367555] (-) TimerEvent: {}
+[15.468332] (-) TimerEvent: {}
+[15.569161] (-) TimerEvent: {}
+[15.669627] (-) TimerEvent: {}
+[15.770665] (-) TimerEvent: {}
+[15.871107] (-) TimerEvent: {}
+[15.971553] (-) TimerEvent: {}
+[16.072061] (-) TimerEvent: {}
+[16.172563] (-) TimerEvent: {}
+[16.272962] (-) TimerEvent: {}
+[16.374318] (-) TimerEvent: {}
+[16.475173] (-) TimerEvent: {}
+[16.575677] (-) TimerEvent: {}
+[16.676306] (-) TimerEvent: {}
+[16.776874] (-) TimerEvent: {}
+[16.877374] (-) TimerEvent: {}
+[16.978195] (-) TimerEvent: {}
+[17.078750] (-) TimerEvent: {}
+[17.179254] (-) TimerEvent: {}
+[17.280031] (-) TimerEvent: {}
+[17.300807] (bumperbot_cpp_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_subscriber\x1b[0m\n'}
+[17.380280] (-) TimerEvent: {}
+[17.480705] (-) TimerEvent: {}
+[17.582210] (-) TimerEvent: {}
+[17.682647] (-) TimerEvent: {}
+[17.783145] (-) TimerEvent: {}
+[17.795623] (bumperbot_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_subscriber\n'}
+[17.807172] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[17.838031] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'install'}
+[17.839172] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples'], 'cwd': '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shivam'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('OLDPWD', '/home/shivam'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('NAME', 'Shivam-PC'), ('WSL_INTEROP', '/run/WSL/36721_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shivam/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/SHIVAM VISHWAKARMA/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:254ddc0f-b5dc-4f62-b8a4-d06c58b59fd3'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.846919] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.847292] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher\n'}
+[17.849528] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""\n'}
+[17.849796] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber\n'}
+[17.852497] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""\n'}
+[17.852612] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter\n'}
+[17.852959] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""\n'}
+[17.853581] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples\n'}
+[17.853968] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples\n'}
+[17.854326] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh\n'}
+[17.854538] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv\n'}
+[17.855772] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh\n'}
+[17.856240] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv\n'}
+[17.856422] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash\n'}
+[17.856668] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh\n'}
+[17.856780] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh\n'}
+[17.857089] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv\n'}
+[17.857263] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv\n'}
+[17.857434] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples\n'}
+[17.857604] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake\n'}
+[17.857775] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake\n'}
+[17.857914] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml\n'}
+[17.858942] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[17.883343] (-) TimerEvent: {}
+[17.905146] (bumperbot_cpp_examples) JobEnded: {'identifier': 'bumperbot_cpp_examples', 'rc': 0}
+[17.906923] (-) EventReactorShutdown: {}

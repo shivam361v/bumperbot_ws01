@@ -1,0 +1,104 @@
+[0.236s] Invoking command in '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shivam/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples
+[0.325s] -- The C compiler identification is GNU 11.4.0
+[0.694s] -- The CXX compiler identification is GNU 11.4.0
+[0.993s] -- Detecting C compiler ABI info
+[1.111s] -- Detecting C compiler ABI info - done
+[1.116s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.116s] -- Detecting C compile features
+[1.116s] -- Detecting C compile features - done
+[1.118s] -- Detecting CXX compiler ABI info
+[1.267s] -- Detecting CXX compiler ABI info - done
+[1.272s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.272s] -- Detecting CXX compile features
+[1.273s] -- Detecting CXX compile features - done
+[1.274s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.394s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.461s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.624s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.628s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.634s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.657s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.706s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.707s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.692s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.665s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.292s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.305s] -- Looking for pthread.h
+[10.472s] -- Looking for pthread.h - found
+[10.472s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.650s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.651s] -- Found Threads: TRUE  
+[10.817s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[10.945s] -- Found bumperbot_msgs: 0.0.0 (/home/shivam/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[11.017s] -- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)
+[11.025s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[11.193s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[11.263s] -- Configuring done
+[11.290s] -- Generating done
+[11.291s] -- Build files have been written to: /home/shivam/bumperbot_ws/build/bumperbot_cpp_examples
+[11.299s] Invoked command in '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/shivam/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples
+[11.301s] Invoking command in '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shivam/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[11.335s] [ 12%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[11.335s] [ 12%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[11.335s] [ 18%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[11.335s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[11.335s] [ 31%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[11.335s] [ 37%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[11.336s] [ 43%] [32mBuilding CXX object CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o[0m
+[11.337s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[14.833s] [ 56%] [32m[1mLinking CXX executable simple_parameter[0m
+[15.060s] [ 56%] Built target simple_parameter
+[15.284s] [ 62%] [32m[1mLinking CXX executable simple_service_server[0m
+[15.450s] [ 68%] [32m[1mLinking CXX executable simple_service_client[0m
+[15.616s] [ 68%] Built target simple_service_server
+[15.697s] [ 68%] Built target simple_service_client
+[16.057s] [ 75%] [32m[1mLinking CXX executable simple_publisher[0m
+[16.358s] [ 75%] Built target simple_publisher
+[17.087s] [ 81%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[17.341s] [ 81%] Built target simple_tf_kinematics
+[18.717s] [ 87%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[18.869s] [ 93%] [32m[1mLinking CXX executable simple_subscriber[0m
+[18.886s] [100%] [32m[1mLinking CXX executable simple_lifecycle_node[0m
+[19.074s] [100%] Built target simple_turtlesim_kinematics
+[19.196s] [100%] Built target simple_subscriber
+[19.205s] [100%] Built target simple_lifecycle_node
+[19.211s] Invoked command in '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shivam/bumperbot_ws/build/bumperbot_cpp_examples -- -j12 -l12
+[19.236s] Invoking command in '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shivam/bumperbot_ws/build/bumperbot_cpp_examples
+[19.240s] -- Install configuration: ""
+[19.240s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[19.240s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[19.240s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[19.240s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[19.240s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[19.241s] -- Set runtime path of "/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[19.241s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[19.243s] -- Set runtime path of "/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[19.243s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[19.243s] -- Set runtime path of "/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+[19.243s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[19.245s] -- Set runtime path of "/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+[19.245s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[19.245s] -- Set runtime path of "/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server" to ""
+[19.245s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[19.245s] -- Set runtime path of "/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client" to ""
+[19.245s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[19.246s] -- Set runtime path of "/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics" to ""
+[19.246s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+[19.248s] -- Set runtime path of "/home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node" to ""
+[19.248s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[19.248s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[19.248s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[19.248s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[19.248s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[19.248s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[19.248s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[19.249s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[19.249s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[19.249s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[19.249s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[19.249s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[19.249s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[19.249s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[19.249s] -- Installing: /home/shivam/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[19.250s] Invoked command in '/home/shivam/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shivam/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shivam/bumperbot_ws/build/bumperbot_cpp_examples
